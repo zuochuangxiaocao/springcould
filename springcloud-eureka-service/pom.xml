@@ -4,7 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.didispace</groupId>
-	<artifactId>Chapter2-1-1</artifactId>
+	<artifactId>springcloud-eureka-service</artifactId>
 	<version>1.0.0</version>
 	<packaging>jar</packaging>
 
