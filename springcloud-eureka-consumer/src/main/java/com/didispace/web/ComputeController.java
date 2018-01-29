@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.didispace.feign.ConsumerClient;
+import com.didispace.feign.ConsumerApi;
 
 @RestController
 public class ComputeController {
@@ -26,7 +26,7 @@ public class ComputeController {
     }*/
     
     @Autowired
-    ConsumerClient consumerClient;
+    ConsumerApi consumerClient;
 
     @RequestMapping(value = "/add", method = RequestMethod.GET)
     public Integer add() {
