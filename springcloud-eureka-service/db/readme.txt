@@ -6,6 +6,7 @@
   3. 搭建feign 消费者 springcloud-eureka-consumer port:8003
    -----添加断路由实现
   4. 添加zuul 负载均衡项目实现 springcloud-eureka-zuul port:8005
+  5. 添加config 配置中心项目实现 springcloud-config-service port:8000
 	
 
   
